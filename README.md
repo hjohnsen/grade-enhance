@@ -13,6 +13,8 @@ A teacher adds a target symbol (see [target.png](https://github.com/hjohnsen/gra
 
 The app will analyze the grading marks and create plots that easily show which questions and topics were the most challenging, which students struggled the most, and trends over time for overall accuracy and topic-specific accuracy. It also plots by topic and by student. These analyses can prevent students from being overlooked and help teachers prioritize which topics or questions to review in class.
 
+This flask app can be run locally by running run.py.
+
 # Dependencies
 ## This app is created in Python 3.6.5 and imports the following modules:
 * Flask==1.0.2
