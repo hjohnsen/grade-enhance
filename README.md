@@ -9,7 +9,7 @@ After finishing my PhD, I spent two years teaching 3rd, 5th, and 6th grade math 
 Teachers are good at working with and understanding students and their challenges. Computers are good at keeping track of data. I wanted to create a way that teachers could spend more time doing what they do best while avoiding the tedium of data entry and analysis.
 
 # How to use
-A teacher adds a target symbol (see [target.png](grade-enhance/target.png)) next to each question on their assignment. This could be added digitally before printing, or pasted on any pre-existing assignment before making copies. The teacher should grade by adding an x inside the target for missed questions and not writing anything in the target next to correct questions, scan the stack of assignments, and upload it to the Flask app. 
+A teacher adds a target symbol (see [target.png](https://github.com/hjohnsen/grade-enhance/blob/master/target.png)) next to each question on their assignment. This could be added digitally before printing, or pasted on any pre-existing assignment before making copies. The teacher should grade by adding an x inside the target for missed questions and not writing anything in the target next to correct questions, scan the stack of assignments, and upload it to the Flask app. 
 
 The app will analyze the grading marks and create plots that easily show which questions and topics were the most challenging, which students struggled the most, and trends over time for overall accuracy and topic-specific accuracy. It also plots by topic and by student. These analyses can prevent students from being overlooked and help teachers prioritize which topics or questions to review in class.
 
@@ -31,5 +31,5 @@ The app will analyze the grading marks and create plots that easily show which q
 * os
 
 # Limitations
-This currently works with one-page assignments only. It does not extract student names and uses the scan order to assign student identities. It's recommended to always sort in gradebook order or alphabetical order before scanning so that the order is consistent from assignment to assignment. It does not accomodate incomplete scans (such as when one or more students were absent).
+This currently works with one-page assignments only. It does not extract student names and uses the page order to assign student numbers. It's recommended to always sort in gradebook order or alphabetical order before scanning so that the order is consistent from assignment to assignment. It does not accomodate changing numbers of tests (such as when one or more students were absent).
 Grading mark classification highly accurate, but it is not 100%. Therefore, the output from this app is best used as a guide for the teacher to review, but should not be entered directly into a gradebook. The accuracy might be sensitive to scanner settings, so if it is giving strange results, you could try using different scanner settings.
