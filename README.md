@@ -1,4 +1,4 @@
-# grade-enhance
+# Grade Enhance
 A pipeline that automatically extracts grading marks and turns them into easy insights about your students' progress
 
 This is a webapp I created as my project during the Insight Data Science Fellowship. It is currently hosted at [http://hjohnsen.site](http://hjohnsen.site)
